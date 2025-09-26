@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data / models / secrets
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# AWS
+*.pem
+*.crt
+*.key
+
+# Terraform
+.terraform/
+terraform.tfstate*
